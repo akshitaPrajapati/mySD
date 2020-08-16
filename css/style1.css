@@ -1062,9 +1062,14 @@ p {
   -khtml-opacity: 0.8;
   opacity: 0.8;
 }
+.custom-overlay{
+  background:#fff;
+  text-align:center;
+  width:273.75px;
+}
 @media screen and (max-width: 767px) {
 	.custom-overlay{
-	  width=300px;}
+	  width:300px;}
 }
 .owl-dots{
   text-align: center;
