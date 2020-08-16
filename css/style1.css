@@ -785,19 +785,19 @@ p {
 
 .swiper-slide {
   background-position: center;
-  background-size:contain;
+  background-size:cover;
   width: 300px;
   height: 500px;
-  background-color:transparent;
+  /*background-color:transparent;*/
 
 }
 @media only screen and (max-width : 767px) {
 	.swiper-container {
 		padding:0;
 	}
-	.swiper-slide {
+	/*.swiper-slide {
 		width: 500px;
-	}
+	}*/
 }
 
 /*==== TESTIMONIALS SECTION ====*/
