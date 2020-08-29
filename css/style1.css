@@ -829,7 +829,7 @@ p {
   height: 110px;
   margin: 0 auto;
   padding: 5px;
-  border: 1px solid #fe8464;
+  /*border: 1px solid #fe8464;*/
   border-radius: 50%;
 }
 .carousel .img-box img {
@@ -1018,6 +1018,7 @@ p {
   text-align: center;
   overflow: hidden;
   background: #000;
+	border-radius:5px 5px;
 }
 
 /*.custom-overlay{
@@ -1150,11 +1151,12 @@ p {
   background: transparent;
   box-shadow: 0px 3px 3px 0px #ccc;
   padding: 0;
+  border-radius:5px 5px;
+  border-left: 2px solid orange;
 }
 
 .accordion-section .panel-default > .panel-heading:hover {
- 
-  background:linear-gradient(orange 0%,peachpuff 100%);
+ background:linear-gradient(to left,rgb(247, 115, 7) 0%,orange 100%);
 }
 
 .accordion-section .panel-default .panel-title a {
@@ -1181,6 +1183,7 @@ p {
 }
 .accordion-section .panel-default .panel-body {
   font-size: 1.2rem;
+  border-left: 2px solid orange;
 }
 
 /*====
@@ -1190,6 +1193,9 @@ BLOG
   background: #f1f1f1;	
   padding: 50px 0 50px 0;
   margin: auto;
+}
+.single-blog{
+margin-bottom:15px;
 }
 .single-blog .blog-image 
       img{border-top-left-radius:10px;border-top-right-radius:10px;width:100%}
