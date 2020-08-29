@@ -1067,6 +1067,7 @@ p {
   background:#fff;
   text-align:center;
   width:273.75px;
+	border-bottom-radius: 5px;
 }
 @media screen and (max-width: 767px) {
 	.custom-overlay{
@@ -1093,7 +1094,7 @@ p {
 .team-item {
   max-width: 300px;
   margin: auto;
-	border-radius: 5px 5px;
+	
 }
 .team-overlay{
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
