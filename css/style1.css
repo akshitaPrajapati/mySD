@@ -477,7 +477,7 @@ p {
 
 .sticky .navbar-nav .nav-item.active > a, .sticky .navbar-nav .nav-item:hover > a {
   color: #fc9432;
-  border-bottom: 3px solid red; }
+  border-bottom: 3px solid orange; }
 
 /*===== HEADER HERO =====*/
 .header-hero {
