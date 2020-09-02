@@ -1071,8 +1071,12 @@ p {
 }
 @media screen and (max-width: 767px) {
 	.custom-overlay{
-	  width:273.75px;}
+	  width:300px;}
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        .custom-overlay{
+	  width:273.75px;}
+
 .owl-dots{
   text-align: center;
   margin-top: 3%;
@@ -1094,7 +1098,7 @@ p {
 .team-item {
   max-width: 300px;
   margin: auto;
-	height:360px;
+	
 }
 .team-overlay{
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
