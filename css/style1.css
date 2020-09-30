@@ -519,7 +519,9 @@ p {
     padding-top: 45px; }
 
 .header-hero-image img {
-    max-width: 650px; }
+    max-width: 650px;
+    height:700px;
+    background: transparent;}
 
   /*HEADER responsivity*/
 
