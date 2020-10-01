@@ -858,7 +858,7 @@ p {
 .carousel-line{
   height: 2px;
   width: 600px;
-  background-color: #fe8464;
+  background-color: orange;
   margin: auto;
 }
 
@@ -1059,7 +1059,7 @@ p {
 }
 
 .content-area:hover img{
-  transform: scale(1,1);
+  transform: scale(1.2,1.2);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
   -moz-opacity: 0.8;
