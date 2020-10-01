@@ -1076,7 +1076,11 @@ p {
 	.custom-overlay{
 	  width:300px;}
 }
-
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .custom-overlay{
+    width:229.75px;
+  }
+}
 .owl-dots{
   text-align: center;
   margin-top: 3%;
