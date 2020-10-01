@@ -675,7 +675,7 @@ p {
 	top:0;
 	left:0;
 	font-size:48px;
-	color:orange;
+	color:#fc9432;
 	z-index:5;
 }
 .icon-feature > .content{
@@ -858,7 +858,7 @@ p {
 .carousel-line{
   height: 2px;
   width: 600px;
-  background-color: orange;
+  background-color: #fc9432;
   margin: auto;
 }
 
